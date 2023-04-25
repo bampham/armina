@@ -1,5 +1,5 @@
 # webl
-search from terminal
+search from terminal 
 
 ## example
-'''webl -g what is rust?'''
+```webl -g what is rust?```
