@@ -22,8 +22,13 @@ fn main() -> io::Result<()> {
             webbrowser::open(&url)?;
         }
         "-y" => {
-            url.push_str("https://www.google.com/search?q=");
+            url.push_str("https://www.youtube.com/results?search_query=");
             url.push_str(&web_transform(&args));
+            webbrowser::open(&url).expect("failed to open URL");
+        }
+        "-w" => {
+            url.push_str("https://www.");
+            url.push_str(&args[2]);
             webbrowser::open(&url).expect("failed to open URL");
         }
         _ => webbrowser::open(&args[1])?,
