@@ -1,9 +1,22 @@
-# webl
+# armina
 search from terminal 
 
-google: ```-g``` 
-youtube: ```-y```  
-https: ```-w```  
+**Google**   
+```bash
+armina -g <search promt> 
+```
+**Youtube**   
+```bash
+armina -y <search promt> 
+```
+**https**  
+```bash
+armina -w <website> 
+```
+**Twitch**
+```bash
+armina -t <channel>
+```
 
 ## example
-```webl -g what is rust?```
+```armina -g what is rust?```
