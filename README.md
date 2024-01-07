@@ -18,5 +18,10 @@ armina -w <website>
 armina -t <channel>
 ```
 
+**DuckDuckGo**
+```bash
+armina -d <search promt>
+```
+
 ## example
 ```armina -g what is rust?```

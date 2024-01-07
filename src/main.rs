@@ -43,6 +43,12 @@ fn main() -> io::Result<()> {
             url.push_str(&args[2]);
             webbrowser::open(&url)?;
         }
+        "-d" => {
+            url.push_str("https://duckduckgo.com/?q=");
+            url.push_str(&web_transform(&args));
+            url.push_str("&t=newext&atb=v411-3&ia=web");
+            webbrowser::open(&url)?;
+        }
         _ => webbrowser::open(&args[1])?,
     };
 
