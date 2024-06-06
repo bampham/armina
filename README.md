@@ -1,5 +1,5 @@
 # armina
-search from terminal 
+Search from terminal which allows you to open new tab in defualt browser at specified addr/promt,
 
 **Google**   
 ```bash
@@ -23,5 +23,3 @@ armina -t <channel>
 armina -d <search promt>
 ```
 
-## example
-```armina -g what is rust?```
